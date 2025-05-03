@@ -1,0 +1,124 @@
+/* Main CSS */
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    margin: 0;
+    padding: 10px 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%; /* Adjusted width for responsiveness */
+    max-width: 600px; /* Center on larger screens */
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 10px;
+}
+
+#search-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2em;
+    border: 1px solid #fff;
+    background-color: #111;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.results {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.result-item {
+    padding: 10px;
+    border: 1px solid #fff;
+    margin-bottom: 10px;
+    background-color: #222;
+    transition: transform 0.2s;
+    cursor: pointer;
+    word-wrap: break-word; /* Ensure long words wrap */
+    overflow-wrap: break-word; /* Better support in modern browsers */
+    box-sizing: border-box;
+}
+
+.result-item:hover {
+    transform: scale(1.05);
+    background-color: #333;
+}
+
+.result-item a {
+    color: #0ff;
+    text-decoration: none;
+    font-size: 1.1em;
+    display: block; /* Make link a block to prevent overflow issues */
+    overflow-wrap: break-word; /* Allow wrapping for long links */
+}
+
+.footer {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: space-between; /* Space between the two elements */
+    align-items: center; /* Vertically center content */
+    margin-top: 20px;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+.footer .report-link {
+    text-decoration: none;
+    color: #fff; /* Adjust color as needed */
+    font-size: 0.9em;
+    text-align: left;
+    flex: 1; /* Allow flexible resizing */
+    margin-bottom: 10px;
+}
+
+.footer .repo-count {
+    text-align: right;
+    flex: 1; /* Allow flexible resizing */
+}
+
+/* Responsive Styles for Mobile and Desktop */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.5em; /* Smaller font size on mobile */
+    }
+
+    #search-input {
+        font-size: 1em; /* Slightly smaller input font */
+        padding: 8px; /* Reduce padding */
+    }
+
+    .result-item {
+        padding: 8px; /* Reduce padding */
+        font-size: 0.9em; /* Smaller font size */
+    }
+
+    .footer {
+        flex-direction: column; /* Stack items vertically */
+        text-align: center; /* Center-align for better appearance */
+    }
+
+    .footer .report-link,
+    .footer .repo-count {
+        text-align: center; /* Center-align footer text */
+    }
+}
+
+/* Ensures all elements are responsive */
+@media (min-width: 601px) {
+    /* Desktop styles can be further specified here if needed */
+}
