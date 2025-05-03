@@ -47,7 +47,7 @@ function initializeFooter() {
     
     // Create the report link
     const reportLink = document.createElement('a');
-    reportLink.href = "#";
+    reportLink.href = "https://github.com/H4ckB4s3/repos";
     reportLink.classList.add('report-link');
     reportLink.textContent = "Report Missing or Broken Link";
     
