@@ -1517,6 +1517,12 @@ const repoData = [
     "description": "Source code for varo epp",
     "author": "varodomains, eskimo, Jordan Koch"
   },
+    {
+    "name": "Shakestation TLD landing‐page",
+    "url": "https://github.com/ShakeStation/Lander",
+    "description": "A simple Handshake TLD landing‐page template for names staked on ShakeStation",
+    "author": "varodomains, eskimo, Jordan Koch"
+  },
   {
     "name": "hns-redirect",
     "url": "https://github.com/Handshake-AU/hns-redirect",
