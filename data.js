@@ -1493,6 +1493,30 @@ const repoData = [
     "description": "Simple SSL certificate and TLSA record generator (for DANE) locally in browser",
     "author": "eskimo"
   },
+    {
+    "name": "VARO dashboard",
+    "url": "https://github.com/varodomains/dashboard",
+    "description": "VARO DNS WebUI",
+    "author": "varodomains, eskimo, Jordan Koch"
+  },
+    {
+    "name": "VARO mutual",
+    "url": "https://github.com/varodomains/mutual",
+    "description": "API which sets on the master PowerDNS replication server",
+    "author": "varodomains, eskimo, Jordan Koch"
+  },
+    {
+    "name": "certbot DNS VARO",
+    "url": "https://github.com/varodomains/certbot-dns-varo",
+    "description": "Varo DNS Authenticator plugin for Certbot",
+    "author": "varodomains, eskimo, Jordan Koch"
+  },
+    {
+    "name": "VARO EPP",
+    "url": "https://github.com/varodomains/epp",
+    "description": "Source code for varo epp",
+    "author": "varodomains, eskimo, Jordan Koch"
+  },
   {
     "name": "hns-redirect",
     "url": "https://github.com/Handshake-AU/hns-redirect",
