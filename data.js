@@ -258,10 +258,82 @@ const repoData = [
     "author": "HandshakeAlliance, Alliance"
   },
   {
-    "name": "hsd-nethealth-status",
-    "url": "https://github.com/nodech/hsd-nethealth-status",
-    "description": "Handshake network network status",
-    "author": "Nodar, Chkuaselidze, Nodech"
+    "name": "beacon browser",
+    "url": "https://github.com/imperviousinc/beacon",
+    "description": "Beacon browser for desktop",
+    "author": "impervious"
+  },
+  {
+    "name": "fingertip LETSDANE",
+    "url": "https://github.com/imperviousinc/fingertip",
+    "description": "Fingertip is a menubar app that runs a lightweight decentralized resolver",
+    "author": "impervious"
+  },
+  {
+    "name": "Forever contracts",
+    "url": "https://github.com/imperviousinc/forever-contracts",
+    "description": "Fork of ENS contracts",
+    "author": "impervious"
+  },
+  {
+    "name": "ID.JS",
+    "url": "https://github.com/imperviousinc/id.js",
+    "description": "A compact library for interacting with domains on the new internet.",
+    "author": "impervious"
+  },
+  {
+    "name": "forever subgraph",
+    "url": "https://github.com/imperviousinc/forever-subgraph",
+    "description": "ENS data source for The Graph",
+    "author": "impervious"
+  },
+  {
+    "name": "forever ENS app",
+    "url": "https://github.com/imperviousinc/forever-ens-app",
+    "description": "ENS app for .forever",
+    "author": "impervious"
+  },
+  {
+    "name": "beacon browser IOS",
+    "url": "https://github.com/imperviousinc/beacon-ios",
+    "description": "Beacon is a browser with native DANE support and a decentralized p2p light client.",
+    "author": "impervious"
+  },
+  {
+    "name": "hns query",
+    "url": "https://github.com/imperviousinc/hnsquery",
+    "description": "HNS Query is a cross-platform library to trustlessly resolve and verify using a p2p light client",
+    "author": "impervious"
+  },
+  {
+    "name": "handover",
+    "url": "https://github.com/imperviousinc/handover",
+    "description": "A plugin for hsd to enable DNS resolution on external networks like Ethererum.",
+    "author": "impervious"
+  },
+  {
+    "name": "ens app badass",
+    "url": "https://github.com/imperviousinc/ens-app",
+    "description": "Fork of ENS manager app for .badass domains",
+    "author": "impervious"
+  },
+  {
+    "name": "UI",
+    "url": "https://github.com/imperviousinc/ui",
+    "description": "UI components and reusable functions",
+    "author": "impervious"
+  },
+  {
+    "name": "badass ens",
+    "url": "https://github.com/imperviousinc/badass-ens",
+    "description": "Badass ENS",
+    "author": "impervious"
+  },
+  {
+    "name": "badass registrar",
+    "url": "https://github.com/imperviousinc/badass",
+    "description": ".badass Registrar",
+    "author": "impervious"
   },
   {
     "name": "hsd-nethealth-web",
